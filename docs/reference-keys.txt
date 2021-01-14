@@ -1,0 +1,13 @@
+intro-and-review
+estimation
+maximum-likelihood-estimation
+the-method-of-moments
+properties-of-estimators
+finite-sample-properties
+bias
+variance
+mse
+asymptotic-properties
+bayesian-statistics
+confidence-intervals
+hypothesis-testing

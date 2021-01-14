@@ -1,0 +1,13 @@
+# Properties of Estimators
+
+This is the third chapter.
+
+## Finite Sample Properties
+
+### Bias
+
+### Variance
+
+### MSE
+
+## Asymptotic Properties

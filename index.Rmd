@@ -1,0 +1,22 @@
+---
+title: "Math/Stat 455 Notes"
+author: "Kelsey Grinde"
+date: "Updated: `r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+output:
+  bookdown::gitbook: default
+  #bookdown::pdf_book: default
+---
+
+# Welcome! {-}
+
+Hi.
+
+We will make use of the following references throughout the course:
+
+- Required textbook: *An Introduction to Mathematical Statistics and Its Applications* by Richard Larsen and Morris Marx (6th Edition)
+- Review concepts from Probability: see Chapters 2--4 of our textbook, or review your notes from *MATH/STAT 354*
+- Review concepts from *STAT 155*: [STAT 155 Notes](https://bcheggeseth.github.io/Stat155Notes/)
+
+<!-- to compile book, run `bookdown::render_book('index.Rmd', 'all')` in the Console -->
