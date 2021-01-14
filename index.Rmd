@@ -11,12 +11,10 @@ output:
 
 # Welcome! {-}
 
-Hi.
+Welcome to the course notes for *MATH/STAT 455: Mathematical Statistics* at Macalester College. These notes were created by [Kelsey Grinde](https://kegrinde.github.io/) and draw heavily from the course textbook: 
 
-We will make use of the following references throughout the course:
+> *An Introduction to Mathematical Statistics and Its Applications* by Richard Larsen and Morris Marx (6th Edition)
 
-- Required textbook: *An Introduction to Mathematical Statistics and Its Applications* by Richard Larsen and Morris Marx (6th Edition)
-- Review concepts from Probability: see Chapters 2--4 of our textbook, or review your notes from *MATH/STAT 354*
-- Review concepts from *STAT 155*: [STAT 155 Notes](https://bcheggeseth.github.io/Stat155Notes/)
+**I will be editing and adding to these notes throughout Spring 2021, so please check back for updates!** 
 
 <!-- to compile book, run `bookdown::render_book('index.Rmd', 'all')` in the Console -->

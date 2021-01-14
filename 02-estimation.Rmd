@@ -1,6 +1,6 @@
 # Estimation
 
-This is the second chapter.
+Our second topic.
 
 ## Maximum Likelihood Estimation
 

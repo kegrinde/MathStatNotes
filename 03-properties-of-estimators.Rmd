@@ -1,6 +1,6 @@
 # Properties of Estimators
 
-This is the third chapter.
+Our third topic.
 
 ## Finite Sample Properties
 

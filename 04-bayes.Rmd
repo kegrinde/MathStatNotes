@@ -1,3 +1,3 @@
 # Bayesian Statistics
 
-This chapter is all about Bayes.
+Our fourth topic.
