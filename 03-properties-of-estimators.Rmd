@@ -1,6 +1,10 @@
 # Properties of Estimators
 
-Our third topic.
+## Learning Goals
+
+- Evaluate properties of different estimators (e.g., bias, efficiency, mean squared error, consistency)
+- Understand the distinction between finite sample and asymptotic properties
+- Use these properties to choose one type of estimator of another
 
 ## Finite Sample Properties
 
@@ -11,3 +15,9 @@ Our third topic.
 ### MSE
 
 ## Asymptotic Properties
+
+### Asymptotically Unbiased
+
+### Consistency
+
+### Asymptotic Normality

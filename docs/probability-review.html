@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>5 Confidence Intervals | Mathematical Statistics</title>
-  <meta name="description" content="5 Confidence Intervals | Mathematical Statistics" />
+  <title>1 Probability Review | Mathematical Statistics</title>
+  <meta name="description" content="1 Probability Review | Mathematical Statistics" />
   <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="5 Confidence Intervals | Mathematical Statistics" />
+  <meta property="og:title" content="1 Probability Review | Mathematical Statistics" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="5 Confidence Intervals | Mathematical Statistics" />
+  <meta name="twitter:title" content="1 Probability Review | Mathematical Statistics" />
   
   
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="bayesian-statistics.html"/>
-<link rel="next" href="hypothesis-testing.html"/>
+<link rel="prev" href="index.html"/>
+<link rel="next" href="estimation.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -131,16 +131,62 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="confidence-intervals" class="section level1">
-<h1><span class="header-section-number">5</span> Confidence Intervals</h1>
-<div id="learning-goals-4" class="section level2">
-<h2><span class="header-section-number">5.1</span> Learning Goals</h2>
+<div id="probability-review" class="section level1">
+<h1><span class="header-section-number">1</span> Probability Review</h1>
+<p>This course builds on topics that you covered in <em>MATH/STAT 354: Probability</em>. Some of you might have taken <em>Probability</em> last semester, and for others it might have been awhile. I certainly don’t expect you to remember everything you learned in that class, but there are some concepts from <em>Probability</em> that we will use fairly often in this class (see the list below): if you’re rusty on any of these, I recommend spending some time reviewing.</p>
+<div id="learning-goals" class="section level2">
+<h2><span class="header-section-number">1.1</span> Learning Goals</h2>
 <ul>
-<li>Understand the mathematical foundation of, be able to derive, be able to use, and be able to appropriately interpret confidence intervals</li>
+<li>Distinguish between important probability models (e.g., Normal, Binomial)</li>
+<li>Derive the expected value and variance of a single random variable or a sum of random variables</li>
+<li>Find the distribution of order statistics (e.g., minimum, maximum)</li>
+<li>Define the moment generating function and use it to find moments or identify pdfs</li>
 </ul>
 </div>
-<div id="textbook-reading-guide-3" class="section level2">
-<h2><span class="header-section-number">5.2</span> Textbook Reading Guide</h2>
+<div id="optional-textbook-reading-guide" class="section level2">
+<h2><span class="header-section-number">1.2</span> (Optional) Textbook Reading Guide</h2>
+<p><strong>Read:</strong> Chapters 2–4 (pages 15–277)</p>
+<p><strong>Definitions:</strong></p>
+<ul>
+<li>probability density function (discrete, continuous)</li>
+<li>cumulative distribution function (discrete, continuous)</li>
+<li>joint probability density function</li>
+<li>conditional probability density function</li>
+<li>independence</li>
+<li>random variable</li>
+<li>expected value</li>
+<li>variance</li>
+<li><span class="math inline">\(r^{th}\)</span> moment</li>
+<li>covariance</li>
+<li>random sample</li>
+<li>order statistic</li>
+<li>moment generating function</li>
+<li>Binomial distribution</li>
+<li>Poisson distribution</li>
+<li>Geometric distribution</li>
+<li>Negative Binomial distribution</li>
+<li>Normal/Gaussian distribution</li>
+<li>Gamma distribution</li>
+<li>Exponential distribution</li>
+<li>Uniform distribution</li>
+</ul>
+<p><strong>Theorems:</strong></p>
+<ul>
+<li>Law of Total Probability – Theorem 2.4.1</li>
+<li>Bayes’ Theorem – Theorem 2.4.2</li>
+<li>Relationship between pdf and cdf – Theorem 3.4.1 and Theorem 3.7.3</li>
+<li>Expected value and variance of linear transformations of random variables – Corollary 3.5.1, Theorem 3.6.2, Theorem 3.9.2, Theorem 3.9.5</li>
+<li>Relationship between mean and variance – Theorem 3.6.1</li>
+<li>Finding a marginal pdf from a joint pdf – Theorem 3.7.1 and Theorem 3.7.2</li>
+<li>Independence of random variables and joint pdfs – Theorem 3.7.4</li>
+<li>Expected value of a product of independent random variables – Theorem 3.9.3</li>
+<li>Covariance of independent random variables – Theorem 3.9.4</li>
+<li>Finding the pdf and cdf of an order statistic – Theorem 3.10.1</li>
+<li>Using MGFs to find moments – Theorem 3.12.1</li>
+<li>Using MGFs to identify pdfs – Theorem 3.12.2 and Theorem 3.12.3</li>
+<li>Central Limit Theorem – Theorem 4.3.2</li>
+</ul>
+<p><em>Note: page and example numbers correspond to the 6th Edition of Larsen &amp; Marx and may not correspond directly to earlier editions of the textbook.</em></p>
 
 </div>
 </div>
@@ -149,8 +195,8 @@
           </div>
         </div>
       </div>
-<a href="bayesian-statistics.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="hypothesis-testing.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="estimation.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

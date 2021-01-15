@@ -1,3 +1,7 @@
 # Bayesian Statistics
 
-Our fourth topic.
+## Learning Goals
+
+- Understand the difference between the Frequentist and Bayesian philosophies
+
+## Textbook Reading Guide

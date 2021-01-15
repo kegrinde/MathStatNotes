@@ -1,3 +1,7 @@
 # Confidence Intervals
 
-Our fifth topic.
+## Learning Goals
+
+- Understand the mathematical foundation of, be able to derive, be able to use, and be able to appropriately interpret confidence intervals
+
+## Textbook Reading Guide

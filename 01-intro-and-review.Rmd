@@ -1,3 +1,57 @@
-# Intro and Review
+# Probability Review
 
-Our first topic.
+This course builds on topics that you covered in *MATH/STAT 354: Probability*. Some of you might have taken *Probability* last semester, and for others it might have been awhile. I certainly don't expect you to remember everything you learned in that class, but there are some concepts from *Probability* that we will use fairly often in this class (see the list below): if you're rusty on any of these, I recommend spending some time reviewing.
+
+## Learning Goals
+
+- Distinguish between important probability models (e.g., Normal, Binomial)
+- Derive the expected value and variance of a single random variable or a sum of random variables
+- Find the distribution of order statistics (e.g., minimum, maximum)
+- Define the moment generating function and use it to find moments or identify pdfs
+
+## (Optional) Textbook Reading Guide
+
+**Read:** Chapters 2--4 (pages 15--277)
+
+**Definitions:**
+
+- probability density function (discrete, continuous)
+- cumulative distribution function (discrete, continuous)
+- joint probability density function
+- conditional probability density function
+- independence
+- random variable
+- expected value
+- variance
+- $r^{th}$ moment
+- covariance
+- random sample
+- order statistic
+- moment generating function
+- Binomial distribution
+- Poisson distribution
+- Geometric distribution
+- Negative Binomial distribution
+- Normal/Gaussian distribution
+- Gamma distribution
+- Exponential distribution
+- Uniform distribution
+
+
+**Theorems:**
+
+- Law of Total Probability -- Theorem 2.4.1
+- Bayes' Theorem -- Theorem 2.4.2
+- Relationship between pdf and cdf -- Theorem 3.4.1 and Theorem 3.7.3
+- Expected value and variance of linear transformations of random variables -- Corollary 3.5.1, Theorem 3.6.2, Theorem 3.9.2, Theorem 3.9.5
+- Relationship between mean and variance -- Theorem 3.6.1
+- Finding a marginal pdf from a joint pdf -- Theorem 3.7.1 and Theorem 3.7.2
+- Independence of random variables and joint pdfs -- Theorem 3.7.4
+- Expected value of a product of independent random variables -- Theorem 3.9.3
+- Covariance of independent random variables -- Theorem 3.9.4
+- Finding the pdf and cdf of an order statistic -- Theorem 3.10.1
+- Using MGFs to find moments -- Theorem 3.12.1
+- Using MGFs to identify pdfs -- Theorem 3.12.2 and Theorem 3.12.3
+- Central Limit Theorem -- Theorem 4.3.2
+
+*Note: page and example numbers correspond to the 6th Edition of Larsen & Marx and may not correspond directly to earlier editions of the textbook.*
