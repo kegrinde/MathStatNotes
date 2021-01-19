@@ -1,5 +1,7 @@
 # Properties of Estimators
 
+**Under Construction**
+
 ## Learning Goals
 
 - Evaluate properties of different estimators (e.g., bias, efficiency, mean squared error, consistency)

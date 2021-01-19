@@ -1,5 +1,7 @@
 # Bayesian Statistics
 
+**Under Construction**
+
 ## Learning Goals
 
 - Understand the difference between the Frequentist and Bayesian philosophies

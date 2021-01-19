@@ -64,8 +64,9 @@ See *Day 1 Slides* and *Activity 1* on [Moodle](https://moodle.macalester.edu/co
 
 ### Videos
 
-- MLE "by hand": TBD
-- MLE by numerical techniques: TBD
+- MLE Intro (Day 2)
+- MLE Example (Day 2)
+- MLE Numerical Optimization (Day 3)
 
 ### In-Class Notes and Activities
 
@@ -97,7 +98,8 @@ See *Day 1 Slides* and *Activity 1* on [Moodle](https://moodle.macalester.edu/co
 
 ### Videos
 
-- TBD
+- MOM Intro
+- MOM Example
 
 ### In-Class Notes and Activities
 

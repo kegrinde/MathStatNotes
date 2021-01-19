@@ -1,5 +1,7 @@
 # Hypothesis Testing
 
+**Under Construction**
+
 ## Learning Goals
 
 - Understand the mathematical foundation of, be able to derive, and be able to use common hypothesis tests

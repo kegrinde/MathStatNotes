@@ -17,4 +17,6 @@ Welcome to the course notes for *MATH/STAT 455: Mathematical Statistics* at Maca
 
 **I will be editing and adding to these notes throughout Spring 2021, so please check back for updates!** 
 
+If you find any typos or have other questions, please email kgrinde@macalester.edu.
+
 <!-- to compile book, run `bookdown::render_book('index.Rmd', 'all')` in the Console -->
