@@ -1,6 +1,6 @@
 # Properties of Estimators
 
-**Under Construction**
+As we've seen, there is more than one way to estimate an unknown parameter. Sometimes these different estimation techniques lead to the same estimator, but sometimes they do not. In that case, how can we choose which estimator to use? What makes one estimator "better" than another?
 
 ## Learning Goals
 
@@ -8,18 +8,102 @@
 - Understand the distinction between finite sample and asymptotic properties
 - Use these properties to choose one type of estimator of another
 
-## Finite Sample Properties
+## Bias and Variance
 
-### Bias
+### Textbook Reading Guide
 
-### Variance
+**Read:** Section 5.4 (pages 308--316)
 
-### MSE
+**Definitions:**
 
-## Asymptotic Properties
+- unbiased
+- asymptotically unbiased
+- more efficient
+- relative efficiency
 
-### Asymptotically Unbiased
+**Questions:**
 
-### Consistency
+- What is the difference between an estimator and an estimate?
+- What are the properties of a "good" estimator?
+- Intuitively, what is the difference between bias and precision? 
+- What are the typical steps to checking if an estimator is unbiased? (see Ex 5.4.2, 5.4.3, and 5.4.4)
+- How can we construct an estimator that is unbiased? (see the Comment in Ex 5.4.2 and 5.4.4)
+- If an estimator is unbiased, is it also asymptotically unbiased? If an estimator is asymptotically unbiased, is it necessarily unbiased?
+- If we are comparing two estimators, how can we check which estimator is more efficient? (see Ex 5.4.5 and 5.4.6)
 
-### Asymptotic Normality
+### Videos
+
+- Bias and Variance Intro
+- Bias Examples
+- Variance Examples
+
+### In-Class Notes and Activities
+
+See *Day 5 Slides* and *Activity 5* on [Moodle](https://moodle.macalester.edu/course/view.php?id=4532).
+
+
+
+## Cramer-Rao Lower Bound
+
+### Textbook Reading Guide
+
+**Read:** Section 5.5 (pages 316--319)
+
+**Definitions and Theorems:**
+
+- Cramer-Rao Inequality
+- best or minimum-variance unbiased estimator
+- efficient estimator
+- efficiency of an unbiased estimator
+
+
+**Questions:**
+
+- Can you describe, in your own words, what the Cramer-Rao Inequality tells us?
+- What are the typical steps to deriving the Cramer-Rao lower bound (see Ex 5.5.1 and 5.5.2)
+- What is the difference between a best and efficient estimator? Does one imply the other? (see the Comment below Definition 5.5.2)
+- What steps do we need to take to show an estimator is efficient?
+- What assumptions do we need to make in order for the Cramer-Rao Inequality to hold? Can you think of any examples of probability distributions that do not meet these assumptions? (see Ex 5.5.2)
+
+
+### Videos
+
+- CRLB Intro
+- CRLB Example
+
+### In-Class Notes and Activities
+
+See *Day 6 Slides* and *Activity 6* on [Moodle](https://moodle.macalester.edu/course/view.php?id=4532).
+
+
+
+## Consistency and Other Asymptotic Properties
+
+### Textbook Reading Guide
+
+**Read:** Section 5.7 (pages 326--329)
+
+**Definitions and Theorems:**
+
+- asymptotically unbiased
+- consistent
+- Chebyshev's inequality
+- weak law of large numbers
+
+**Questions:**
+
+- What is the distinction between a fixed sample property and an asymptotic property of an estimator?
+- Can you describe, in your own words, what it means for an estimator to be consistent?
+- How can we use the $\epsilon-\delta$ definition of consistency to show that an estimator is consistent? (see Ex 5.7.1)
+- How can we use Chebyshev's inequality to show that an estimator is consistent? (see Ex 5.7.2)
+- Which of the estimation techniques that we've seen in this class yields consistent estimators? (see Comment after Ex 5.7.2) 
+
+### Videos
+
+- Consistency Intro
+- Consistency Examples
+
+### In-Class Notes and Activities
+
+See *Day 7 Slides* and *Activity 7* on [Moodle](https://moodle.macalester.edu/course/view.php?id=4532).
+
