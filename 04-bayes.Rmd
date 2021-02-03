@@ -1,9 +1,86 @@
 # Bayesian Statistics
 
-**Under Construction**
+Bayesian estimation is an approach for incorporating prior knowledge into the estimation of unknown parameters. 
+
+The Bayesian philosophy represents a total shift from the Frequentist philosophy that we've seen so far in this class, and that you've seen in your other stats classes. An important distinction between the two philosophies lies in their beliefs about unknown parameters. In particular:
+
+- Frequentists believe that parameters are unknown but *fixed constants*
+- Bayesians believe that parametes are *random variables* (so they have a probability distribution)
+
+
+
 
 ## Learning Goals
 
 - Understand the difference between the Frequentist and Bayesian philosophies
+- Derive the posterior distribution for an unknown parameter based on a specified prior and likelihood
+- Derive the Bayes estimator for a given loss function
+- Evaluate the properties of Bayes estimators
+- Understand the impact of the choice of prior on Bayesian estimation
 
-## Textbook Reading Guide
+
+
+
+## Prior and Posterior Distributions
+
+### Textbook Reading Guide
+
+**Read:** first half of Section 5.8 (pages 329--337)
+
+**Definitions and Theorems:**
+
+- Bayes' Theorem
+- prior distribution
+- posterior distribution
+- noninformative prior
+- conjugate prior
+- marginal pdf
+
+**Questions:** 
+
+- What is the difference between the Bayesian and Frequentist philosophies?
+- What are the typical steps to deriving a posterior distribution?
+
+### Videos
+
+- Bayesian vs Frequentist Philosophy
+- Prior and Posterior Distributions Intro
+- Prior and Posterior Distributions Example
+
+
+
+### In-Class Notes and Activities
+
+See *Day 9 Slides* and *Activity 9* on [Moodle](https://moodle.macalester.edu/course/view.php?id=4532).
+
+
+
+
+## Bayes Estimators
+
+### Textbook Reading Guide
+
+**Read:** second half of Section 5.8 (pages 337--341)
+
+**Definitions:**
+
+- TBD
+
+**Questions:** 
+
+- TBD
+
+
+### Videos
+
+- Bayesian Estimation Intro
+- Bayesian Estimation Proofs
+- Properties of Bayes Estimators
+
+
+
+### In-Class Notes and Activities
+
+See *Day 10 Slides* and *Activity 10* on [Moodle](https://moodle.macalester.edu/course/view.php?id=4532).
+
+
