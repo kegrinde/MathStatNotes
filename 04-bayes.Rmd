@@ -5,7 +5,7 @@ Bayesian estimation is an approach for incorporating prior knowledge into the es
 The Bayesian philosophy represents a total shift from the Frequentist philosophy that we've seen so far in this class, and that you've seen in your other stats classes. An important distinction between the two philosophies lies in their beliefs about unknown parameters. In particular:
 
 - Frequentists believe that parameters are unknown but *fixed constants*
-- Bayesians believe that parametes are *random variables* (so they have a probability distribution)
+- Bayesians believe that parameters are *random variables* (so they have a probability distribution)
 
 
 
@@ -40,6 +40,7 @@ The Bayesian philosophy represents a total shift from the Frequentist philosophy
 
 - What is the difference between the Bayesian and Frequentist philosophies?
 - What are the typical steps to deriving a posterior distribution?
+- How is the posterior distribution impacted by the observed data and our choice of prior? What sorts of considerations should we keep in mind in choosing a prior?
 
 ### Videos
 
@@ -64,11 +65,21 @@ See *Day 9 Slides* and *Activity 9* on [Moodle](https://moodle.macalester.edu/co
 
 **Definitions:**
 
-- TBD
+- posterior mode
+- posterior median
+- posterior mean
+- loss function
+- risk
+- Bayes estimate
 
 **Questions:** 
 
-- TBD
+- Once we have a posterior distribution for $\theta$, how can we provide an estimate for $\theta$? 
+- What are some examples of commonly-used loss functions?
+- What are the typical steps to finding a Bayes estimate?
+- What are the Bayes estimates for absolute error loss and squared error loss?
+- How are the Bayes and maximum likelihood estimators typically related? 
+- What criteria do we consider in choosing an "optimal" estimator under the Bayesian paradigm? How do Bayes estimators stand up against Frequentist optimality criteria (e.g., bias, asymptotic bias, consistency)?
 
 
 ### Videos

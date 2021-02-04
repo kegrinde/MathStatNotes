@@ -32,7 +32,7 @@
   
 <link rel="prev" href="properties-of-estimators.html"/>
 <link rel="next" href="confidence-intervals.html"/>
-<script src="libs/header-attrs-2.5/header-attrs.js"></script>
+<script src="libs/header-attrs-2.6/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -50,8 +50,6 @@
 
 
 
-<link href="libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
-<script src="libs/anchor-sections-1.0/anchor-sections.js"></script>
 
 
 
@@ -165,7 +163,7 @@
 <p>The Bayesian philosophy represents a total shift from the Frequentist philosophy that we’ve seen so far in this class, and that you’ve seen in your other stats classes. An important distinction between the two philosophies lies in their beliefs about unknown parameters. In particular:</p>
 <ul>
 <li>Frequentists believe that parameters are unknown but <em>fixed constants</em></li>
-<li>Bayesians believe that parametes are <em>random variables</em> (so they have a probability distribution)</li>
+<li>Bayesians believe that parameters are <em>random variables</em> (so they have a probability distribution)</li>
 </ul>
 <div id="learning-goals-3" class="section level2" number="4.1">
 <h2><span class="header-section-number">4.1</span> Learning Goals</h2>
@@ -195,6 +193,7 @@
 <ul>
 <li>What is the difference between the Bayesian and Frequentist philosophies?</li>
 <li>What are the typical steps to deriving a posterior distribution?</li>
+<li>How is the posterior distribution impacted by the observed data and our choice of prior? What sorts of considerations should we keep in mind in choosing a prior?</li>
 </ul>
 </div>
 <div id="videos-5" class="section level3" number="4.2.2">
@@ -217,11 +216,21 @@
 <p><strong>Read:</strong> second half of Section 5.8 (pages 337–341)</p>
 <p><strong>Definitions:</strong></p>
 <ul>
-<li>TBD</li>
+<li>posterior mode</li>
+<li>posterior median</li>
+<li>posterior mean</li>
+<li>loss function</li>
+<li>risk</li>
+<li>Bayes estimate</li>
 </ul>
 <p><strong>Questions:</strong></p>
 <ul>
-<li>TBD</li>
+<li>Once we have a posterior distribution for <span class="math inline">\(\theta\)</span>, how can we provide an estimate for <span class="math inline">\(\theta\)</span>?</li>
+<li>What are some examples of commonly-used loss functions?</li>
+<li>What are the typical steps to finding a Bayes estimate?</li>
+<li>What are the Bayes estimates for absolute error loss and squared error loss?</li>
+<li>How are the Bayes and maximum likelihood estimators typically related?</li>
+<li>What criteria do we consider in choosing an “optimal” estimator under the Bayesian paradigm? How do Bayes estimators stand up against Frequentist optimality criteria (e.g., bias, asymptotic bias, consistency)?</li>
 </ul>
 </div>
 <div id="videos-6" class="section level3" number="4.3.2">
