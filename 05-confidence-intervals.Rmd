@@ -1,3 +1,5 @@
+# (PART) Inference {-}
+
 # Confidence Intervals
 
 So far in this class we have focused on the problem of *estimating* an unknown parameter. However, the estimators that we've derived thus far simply provide us with a "best guess" for an unknown parameter, without specifying anything about the uncertainty or precision of our estimate.
@@ -6,13 +8,13 @@ One of the most widely used methods for providing a measure of uncertainty for a
 
 Confidence intervals are one of the most commonly misinterpreted tools in statistics. Understanding their mathematical foundations, and how they can be derived, provides insight into the ways we can (and cannot) interpret our confidence intervals.
 
-## Learning Goals
+## Learning Goals {-}
 
 - Understand the mathematical foundation and know how to appropriately interpret a confidence interval
 - Derive a confidence interval for an unknown parameter using an exact pivot, approximate pivot, and/or the exact distribution of an estimator
 - Use a confidence interval to choose a sample size
 
-## Textbook Reading Guide
+## Textbook Reading Guide {-}
 
 **Read** 
 
@@ -46,3 +48,12 @@ Consider these questions throughout both readings:
 - What are the typical steps to deriving a confidence interval?
 - How can we interpret 95% confidence intervals? How *can't* we interpret 95% confidence intervals?
 - How can we use confidence intervals to choose a sample size for our study?
+
+## Videos {-}
+
+- TBD (Day 11)
+- TBD (Day 12)
+
+## In-Class Notes and Activities {-}
+
+See *Day 11--12 Slides* and *Activities 11--12* on [Moodle](https://moodle.macalester.edu/course/view.php?id=4532).

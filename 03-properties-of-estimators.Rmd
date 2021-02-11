@@ -2,7 +2,7 @@
 
 As we've seen, there is more than one way to estimate an unknown parameter. Sometimes these different estimation techniques lead to the same estimator, but sometimes they do not. In that case, how can we choose which estimator to use? What makes one estimator "better" than another?
 
-## Learning Goals
+## Learning Goals {-}
 
 - Evaluate properties of different estimators (e.g., bias, efficiency, mean squared error, consistency)
 - Understand the distinction between finite sample and asymptotic properties
@@ -10,7 +10,7 @@ As we've seen, there is more than one way to estimate an unknown parameter. Some
 
 ## Bias and Variance
 
-### Textbook Reading Guide
+### Textbook Reading Guide {-}
 
 **Read:** Section 5.4 (pages 308--316)
 
@@ -31,13 +31,13 @@ As we've seen, there is more than one way to estimate an unknown parameter. Some
 - If an estimator is unbiased, is it also asymptotically unbiased? If an estimator is asymptotically unbiased, is it necessarily unbiased?
 - If we are comparing two estimators, how can we check which estimator is more efficient? (see Ex 5.4.5 and 5.4.6)
 
-### Videos
+### Videos {-}
 
 - Bias and Variance Intro
 - Bias Examples
 - Variance Examples
 
-### In-Class Notes and Activities
+### In-Class Notes and Activities {-}
 
 See *Day 5 Slides* and *Activity 5* on [Moodle](https://moodle.macalester.edu/course/view.php?id=4532).
 
@@ -45,7 +45,7 @@ See *Day 5 Slides* and *Activity 5* on [Moodle](https://moodle.macalester.edu/co
 
 ## Cramer-Rao Lower Bound
 
-### Textbook Reading Guide
+### Textbook Reading Guide {-}
 
 **Read:** Section 5.5 (pages 316--319)
 
@@ -66,12 +66,12 @@ See *Day 5 Slides* and *Activity 5* on [Moodle](https://moodle.macalester.edu/co
 - What assumptions do we need to make in order for the Cramer-Rao Inequality to hold? Can you think of any examples of probability distributions that do not meet these assumptions? (see Ex 5.5.2)
 
 
-### Videos
+### Videos {-}
 
 - CRLB Intro
 - CRLB Example
 
-### In-Class Notes and Activities
+### In-Class Notes and Activities {-}
 
 See *Day 6 Slides* and *Activity 6* on [Moodle](https://moodle.macalester.edu/course/view.php?id=4532).
 
@@ -79,7 +79,7 @@ See *Day 6 Slides* and *Activity 6* on [Moodle](https://moodle.macalester.edu/co
 
 ## Consistency and Other Asymptotic Properties
 
-### Textbook Reading Guide
+### Textbook Reading Guide {-}
 
 **Read:** Section 5.7 (pages 326--329)
 
@@ -98,12 +98,12 @@ See *Day 6 Slides* and *Activity 6* on [Moodle](https://moodle.macalester.edu/co
 - How can we use Chebyshev's inequality to show that an estimator is consistent? (see Ex 5.7.2)
 - Which of the estimation techniques that we've seen in this class yields consistent estimators? (see Comment after Ex 5.7.2) 
 
-### Videos
+### Videos {-}
 
 - Consistency Intro
 - Consistency Examples
 
-### In-Class Notes and Activities
+### In-Class Notes and Activities {-}
 
 See *Day 7 Slides* and *Activity 7* on [Moodle](https://moodle.macalester.edu/course/view.php?id=4532).
 

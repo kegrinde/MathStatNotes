@@ -2,8 +2,12 @@
 
 **Under Construction**
 
-## Learning Goals
+## Learning Goals {-}
 
 - Understand the mathematical foundation of, be able to derive, and be able to use common hypothesis tests
 
-## Textbook Reading Guide
+## Textbook Reading Guide {-}
+
+## Videos {-}
+
+## In-Class Activities and Notes {-}

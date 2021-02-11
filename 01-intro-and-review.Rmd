@@ -1,15 +1,17 @@
+# (PART) Review {-}
+
 # Probability Review
 
 This course builds on topics that you covered in *MATH/STAT 354: Probability*. Some of you might have taken *Probability* last semester, and for others it might have been awhile. I certainly don't expect you to remember everything you learned in that class, but there are some concepts from *Probability* that we will use fairly often in this class (see the list below): if you're rusty on any of these, I recommend spending some time reviewing.
 
-## Learning Goals
+## Learning Goals {-}
 
 - Distinguish between important probability models (e.g., Normal, Binomial)
 - Derive the expected value and variance of a single random variable or a sum of random variables
 - Find the distribution of order statistics (e.g., minimum, maximum)
 - Define the moment generating function and use it to find moments or identify pdfs
 
-## (Optional) Textbook Reading Guide
+## (Optional) Textbook Reading Guide {-}
 
 **Read:** Chapters 2--4 (pages 15--277)
 
