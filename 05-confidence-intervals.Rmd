@@ -1,9 +1,48 @@
 # Confidence Intervals
 
-**Under Construction**
+So far in this class we have focused on the problem of *estimating* an unknown parameter. However, the estimators that we've derived thus far simply provide us with a "best guess" for an unknown parameter, without specifying anything about the uncertainty or precision of our estimate.
+
+One of the most widely used methods for providing a measure of uncertainty for an estimate is to construct a *confidence interval*. Confidence intervals provide a range of plausible values for an unknown parameter (i.e., values for the parameter that are consistent with our observed data), and their width provides an indication of our estimator's precision.
+
+Confidence intervals are one of the most commonly misinterpreted tools in statistics. Understanding their mathematical foundations, and how they can be derived, provides insight into the ways we can (and cannot) interpret our confidence intervals.
 
 ## Learning Goals
 
-- Understand the mathematical foundation of, be able to derive, be able to use, and be able to appropriately interpret confidence intervals
+- Understand the mathematical foundation and know how to appropriately interpret a confidence interval
+- Derive a confidence interval for an unknown parameter using an exact pivot, approximate pivot, and/or the exact distribution of an estimator
+- Use a confidence interval to choose a sample size
 
 ## Textbook Reading Guide
+
+**Read** 
+
+- First reading: review 4.3 (235--242) and read the first part of 5.3 (pages 293--298)
+- Second reading: read the rest of 5.3 (pages 293--306)
+
+**Definitions and Theorems**
+
+First reading: 
+
+- Theorem 4.3.2 (Central Limit Theorem)
+- Theorem 4.3.3 and its Corollaries 
+- 95% confidence interval
+- 100(1-$\alpha$)% confidence interval
+
+Second reading:
+
+- Theorem 4.3.1
+- margin of error
+- sampling variation
+- Theorem 5.3.2
+
+
+**Questions** 
+
+Consider these questions throughout both readings:
+
+- What feature of a confidence interval tells us about the precision of our estimator?
+- What does it mean to be *95% confident*?
+- How can we use simulations to assess the performance of confidence intervals?
+- What are the typical steps to deriving a confidence interval?
+- How can we interpret 95% confidence intervals? How *can't* we interpret 95% confidence intervals?
+- How can we use confidence intervals to choose a sample size for our study?
