@@ -51,8 +51,10 @@ Consider these questions throughout both readings:
 
 ## Videos {-}
 
-- TBD (Day 11)
-- TBD (Day 12)
+- CI Intro (Day 11)
+- CI via Pivots (Day 11)
+- CI Pivot Examples (Day 11)
+- CI via Exact Distributions (Day 12)
 
 ## In-Class Notes and Activities {-}
 
