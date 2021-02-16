@@ -12,3 +12,6 @@ prior-and-posterior-distributions
 bayes-estimators
 confidence-intervals
 hypothesis-testing
+hypothesis-testing-framework
+likelihood-ratio-tests
+errors-and-power

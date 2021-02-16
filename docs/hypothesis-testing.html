@@ -143,9 +143,24 @@
 <li class="chapter" data-level="6" data-path="hypothesis-testing.html"><a href="hypothesis-testing.html"><i class="fa fa-check"></i><b>6</b> Hypothesis Testing</a>
 <ul>
 <li class="chapter" data-level="" data-path="hypothesis-testing.html"><a href="hypothesis-testing.html#learning-goals-5"><i class="fa fa-check"></i>Learning Goals</a></li>
+<li class="chapter" data-level="6.1" data-path="hypothesis-testing.html"><a href="hypothesis-testing.html#hypothesis-testing-framework"><i class="fa fa-check"></i><b>6.1</b> Hypothesis Testing Framework</a>
+<ul>
 <li class="chapter" data-level="" data-path="hypothesis-testing.html"><a href="hypothesis-testing.html#textbook-reading-guide-8"><i class="fa fa-check"></i>Textbook Reading Guide</a></li>
 <li class="chapter" data-level="" data-path="hypothesis-testing.html"><a href="hypothesis-testing.html#videos-8"><i class="fa fa-check"></i>Videos</a></li>
 <li class="chapter" data-level="" data-path="hypothesis-testing.html"><a href="hypothesis-testing.html#in-class-activities-and-notes"><i class="fa fa-check"></i>In-Class Activities and Notes</a></li>
+</ul></li>
+<li class="chapter" data-level="6.2" data-path="hypothesis-testing.html"><a href="hypothesis-testing.html#likelihood-ratio-tests"><i class="fa fa-check"></i><b>6.2</b> Likelihood Ratio Tests</a>
+<ul>
+<li class="chapter" data-level="" data-path="hypothesis-testing.html"><a href="hypothesis-testing.html#textbook-reading-guide-9"><i class="fa fa-check"></i>Textbook Reading Guide</a></li>
+<li class="chapter" data-level="" data-path="hypothesis-testing.html"><a href="hypothesis-testing.html#videos-9"><i class="fa fa-check"></i>Videos</a></li>
+<li class="chapter" data-level="" data-path="hypothesis-testing.html"><a href="hypothesis-testing.html#in-class-activities-and-notes-1"><i class="fa fa-check"></i>In-Class Activities and Notes</a></li>
+</ul></li>
+<li class="chapter" data-level="6.3" data-path="hypothesis-testing.html"><a href="hypothesis-testing.html#errors-and-power"><i class="fa fa-check"></i><b>6.3</b> Errors and Power</a>
+<ul>
+<li class="chapter" data-level="" data-path="hypothesis-testing.html"><a href="hypothesis-testing.html#textbook-reading-guide-10"><i class="fa fa-check"></i>Textbook Reading Guide</a></li>
+<li class="chapter" data-level="" data-path="hypothesis-testing.html"><a href="hypothesis-testing.html#videos-10"><i class="fa fa-check"></i>Videos</a></li>
+<li class="chapter" data-level="" data-path="hypothesis-testing.html"><a href="hypothesis-testing.html#in-class-activities-and-notes-2"><i class="fa fa-check"></i>In-Class Activities and Notes</a></li>
+</ul></li>
 </ul></li>
 </ul>
 
@@ -166,22 +181,115 @@
             <section class="normal" id="section-">
 <div id="hypothesis-testing" class="section level1" number="6">
 <h1><span class="header-section-number">6</span> Hypothesis Testing</h1>
-<p><strong>Under Construction</strong></p>
 <div id="learning-goals-5" class="section level2 unnumbered">
 <h2>Learning Goals</h2>
 <ul>
-<li>Understand the mathematical foundation of, be able to derive, and be able to use common hypothesis tests</li>
+<li>Understand the mathematical foundation of and know how to correctly interpret the results of a hypothesis test</li>
+<li>Derive and implement a hypothesis test that can be used to distinguish between two conflicting hypotheses</li>
+<li>[Power and errors]</li>
 </ul>
 </div>
-<div id="textbook-reading-guide-8" class="section level2 unnumbered">
-<h2>Textbook Reading Guide</h2>
+<div id="hypothesis-testing-framework" class="section level2" number="6.1">
+<h2><span class="header-section-number">6.1</span> Hypothesis Testing Framework</h2>
+<div id="textbook-reading-guide-8" class="section level3 unnumbered">
+<h3>Textbook Reading Guide</h3>
+<p><strong>Read:</strong> Sections 6.1–6.3 (pages 343–359)</p>
+<p><strong>Definitions:</strong></p>
+<ul>
+<li>null hypothesis</li>
+<li>alternative hypothesis</li>
+<li>test statistic</li>
+<li>critical region</li>
+<li>critical value</li>
+<li>significance level</li>
+<li>statistically significant</li>
+<li>p-value</li>
+</ul>
+<p><strong>Questions:</strong></p>
+<ul>
+<li>What is the goal of hypothesis testing?</li>
+<li>What are the typical steps to deriving a hypothesis test?</li>
+<li>If we decide to reject <span class="math inline">\(H_0\)</span>, does that mean we’ve proved that <span class="math inline">\(H_0\)</span> is false?</li>
+<li>How should we choose <span class="math inline">\(\alpha\)</span>?</li>
+<li>What is the difference between a one-sided and a two-sided alternative hypothesis? How does this impact our hypothesis testing procedure? How does this impact our p-value?</li>
+<li>What is the difference between saying that we “fail to reject <span class="math inline">\(H_0\)</span>” and saying that we “accept <span class="math inline">\(H_0\)</span>”? Which of these can we conclude, and which of these can’t we conclude?</li>
+<li>How are test statistics and p-values related?</li>
+<li>How can we conduct a hypothesis test for the Bernoulli/Binomial parameter <span class="math inline">\(p\)</span> if we have a small sample size?</li>
+</ul>
 </div>
-<div id="videos-8" class="section level2 unnumbered">
-<h2>Videos</h2>
+<div id="videos-8" class="section level3 unnumbered">
+<h3>Videos</h3>
+<ul>
+<li>HT Intro</li>
+<li>HT Example</li>
+</ul>
 </div>
-<div id="in-class-activities-and-notes" class="section level2 unnumbered">
-<h2>In-Class Activities and Notes</h2>
+<div id="in-class-activities-and-notes" class="section level3 unnumbered">
+<h3>In-Class Activities and Notes</h3>
+<p>See <em>Day 13 Slides</em> and <em>Activity 13</em> on <a href="https://moodle.macalester.edu/course/view.php?id=4532">Moodle</a>.</p>
+</div>
+</div>
+<div id="likelihood-ratio-tests" class="section level2" number="6.2">
+<h2><span class="header-section-number">6.2</span> Likelihood Ratio Tests</h2>
+<div id="textbook-reading-guide-9" class="section level3 unnumbered">
+<h3>Textbook Reading Guide</h3>
+<p><strong>Read:</strong> Section 6.5 (pages 375–378)</p>
+<p><strong>Definitions:</strong></p>
+<ul>
+<li>generalized likelihood ratio</li>
+<li>generalized likelihood ratio test</li>
+</ul>
+<p><strong>Questions:</strong></p>
+<ul>
+<li>What is the test statistic for a generalized likelihood ratio test?</li>
+<li>Why will the generalized likelihood ratio <span class="math inline">\(\lambda\)</span> be between 0 and 1?</li>
+<li>How do we typically find the critical value/region <span class="math inline">\(\lambda^*\)</span> for a generalized likelihood ratio test?</li>
+</ul>
+</div>
+<div id="videos-9" class="section level3 unnumbered">
+<h3>Videos</h3>
+<ul>
+<li>LRT Intro</li>
+<li>LRT Example</li>
+</ul>
+</div>
+<div id="in-class-activities-and-notes-1" class="section level3 unnumbered">
+<h3>In-Class Activities and Notes</h3>
+<p>See <em>Day 14 Slides</em> and <em>Activity 14</em> on <a href="https://moodle.macalester.edu/course/view.php?id=4532">Moodle</a>.</p>
+</div>
+</div>
+<div id="errors-and-power" class="section level2" number="6.3">
+<h2><span class="header-section-number">6.3</span> Errors and Power</h2>
+<div id="textbook-reading-guide-10" class="section level3 unnumbered">
+<h3>Textbook Reading Guide</h3>
+<p><strong>Read:</strong> Section 6.4 (pages 359–373)</p>
+<p><strong>Definitions:</strong></p>
+<ul>
+<li>type I error</li>
+<li>type II error</li>
+<li>power</li>
+</ul>
+<p><strong>Questions:</strong></p>
+<ul>
+<li>How is type I error related to the choice of significance level?</li>
+<li>What are the typical steps to calculating the probability of a type II error?</li>
+<li>How is type II error related to the power of a hypothesis test?</li>
+<li>What factors influence the power of a test? In practice, which of these factors can we control?</li>
+</ul>
+</div>
+<div id="videos-10" class="section level3 unnumbered">
+<h3>Videos</h3>
+<ul>
+<li>Errors and Power Intro</li>
+<li>Errors Example</li>
+<li>Power Example</li>
+</ul>
+</div>
+<div id="in-class-activities-and-notes-2" class="section level3 unnumbered">
+<h3>In-Class Activities and Notes</h3>
+<p>See <em>Day 15 Slides</em> and <em>Activity 15</em> on <a href="https://moodle.macalester.edu/course/view.php?id=4532">Moodle</a>.</p>
 
+</div>
 </div>
 </div>
             </section>

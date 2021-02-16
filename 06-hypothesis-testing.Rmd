@@ -1,13 +1,101 @@
 # Hypothesis Testing
 
-**Under Construction**
-
 ## Learning Goals {-}
 
-- Understand the mathematical foundation of, be able to derive, and be able to use common hypothesis tests
+- Understand the mathematical foundation of and know how to correctly interpret the results of a hypothesis test
+- Derive and implement a hypothesis test that can be used to distinguish between two conflicting hypotheses
+- [Power and errors]
 
-## Textbook Reading Guide {-}
 
-## Videos {-}
+## Hypothesis Testing Framework
 
-## In-Class Activities and Notes {-}
+### Textbook Reading Guide {-}
+
+**Read:** Sections 6.1--6.3 (pages 343--359)
+
+**Definitions:**
+
+- null hypothesis
+- alternative hypothesis 
+- test statistic
+- critical region
+- critical value
+- significance level
+- statistically significant
+- p-value
+
+**Questions:**
+
+- What is the goal of hypothesis testing?
+- What are the typical steps to deriving a hypothesis test? 
+- If we decide to reject $H_0$, does that mean we've proved that $H_0$ is false? 
+- How should we choose $\alpha$?
+- What is the difference between a one-sided and a two-sided alternative hypothesis? How does this impact our hypothesis testing procedure? How does this impact our p-value?
+- What is the difference between saying that we "fail to reject $H_0$" and saying that we "accept $H_0$"? Which of these can we conclude, and which of these can't we conclude? 
+- How are test statistics and p-values related?
+- How can we conduct a hypothesis test for the Bernoulli/Binomial parameter $p$ if we have a small sample size?
+
+### Videos {-}
+
+- HT Intro
+- HT Example
+
+### In-Class Activities and Notes {-}
+
+See *Day 13 Slides* and *Activity 13* on [Moodle](https://moodle.macalester.edu/course/view.php?id=4532).
+
+
+## Likelihood Ratio Tests
+
+### Textbook Reading Guide {-}
+
+**Read:** Section 6.5 (pages 375--378)
+
+**Definitions:**
+
+- generalized likelihood ratio
+- generalized likelihood ratio test
+
+**Questions:**
+
+- What is the test statistic for a generalized likelihood ratio test?
+- Why will the generalized likelihood ratio $\lambda$ be between 0 and 1? 
+- How do we typically find the critical value/region $\lambda^*$ for a generalized likelihood ratio test?
+
+### Videos {-}
+
+- LRT Intro
+- LRT Example
+
+### In-Class Activities and Notes {-}
+
+See *Day 14 Slides* and *Activity 14* on [Moodle](https://moodle.macalester.edu/course/view.php?id=4532).
+
+## Errors and Power
+
+### Textbook Reading Guide {-}
+
+**Read:** Section 6.4 (pages 359--373)
+
+**Definitions:**
+
+- type I error
+- type II error
+- power
+
+**Questions:**
+
+- How is type I error related to the choice of significance level?
+- What are the typical steps to calculating the probability of a type II error?
+- How is type II error related to the power of a hypothesis test?
+- What factors influence the power of a test? In practice, which of these factors can we control?
+
+### Videos {-}
+
+- Errors and Power Intro
+- Errors Example
+- Power Example
+
+### In-Class Activities and Notes {-}
+
+See *Day 15 Slides* and *Activity 15* on [Moodle](https://moodle.macalester.edu/course/view.php?id=4532).
