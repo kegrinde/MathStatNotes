@@ -4,7 +4,8 @@
 
 - Understand the mathematical foundation of and know how to correctly interpret the results of a hypothesis test
 - Derive and implement a hypothesis test that can be used to distinguish between two conflicting hypotheses
-- [Power and errors]
+- Understand the differences and relationships between type I error, type II error, and power, as well as the factors that influence each of them
+- Calculate the power or type II error probability for a given hypothesis test
 
 
 ## Hypothesis Testing Framework
@@ -93,8 +94,7 @@ See *Day 14 Slides* and *Activity 14* on [Moodle](https://moodle.macalester.edu/
 ### Videos {-}
 
 - Errors and Power Intro
-- Errors Example
-- Power Example
+- Errors and Power Example
 
 ### In-Class Activities and Notes {-}
 
