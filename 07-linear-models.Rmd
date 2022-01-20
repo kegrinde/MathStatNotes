@@ -1,3 +1,5 @@
+# (PART) Bonus Topics {-}
+
 # Linear Models
 
 This section is under construction. Check back for future updates!
