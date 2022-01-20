@@ -49,13 +49,9 @@ Consider these questions throughout both readings:
 - How can we interpret 95% confidence intervals? How *can't* we interpret 95% confidence intervals?
 - How can we use confidence intervals to choose a sample size for our study?
 
-## Videos {-}
+## Corresponding Videos {-}
 
 - CI Intro (Day 11)
 - CI via Pivots (Day 11)
 - CI Pivot Examples (Day 11)
 - CI via Exact Distributions (Day 12)
-
-## In-Class Notes and Activities {-}
-
-See *Day 11--12 Slides* and *Activities 11--12* on [Moodle](https://moodle.macalester.edu/course/view.php?id=4532).

@@ -1,5 +1,5 @@
 ---
-title: "Mathematical Statistics"
+title: "Mathematical Statistics Reading Guides"
 author: "Kelsey Grinde"
 date: "Updated: `r Sys.Date()`"
 site: bookdown::bookdown_site
@@ -11,11 +11,11 @@ output:
 
 # Welcome! {-}
 
-Welcome to the course notes for *MATH/STAT 455: Mathematical Statistics* at Macalester College. These notes were created by [Kelsey Grinde](https://kegrinde.github.io/) and draw heavily from the course textbook: 
+Welcome to the reading guides for *MATH/STAT 455: Mathematical Statistics* at Macalester College. These notes were created by [Kelsey Grinde](https://kegrinde.github.io/) and draw heavily from the course textbook: 
 
 > *An Introduction to Mathematical Statistics and Its Applications* by Richard Larsen and Morris Marx (6th Edition)
 
-**I will be editing and adding to these notes throughout Spring 2021, so please check back for updates!** 
+**I will be editing and adding to these notes throughout Spring 2022, so please check back for updates!** 
 
 If you find any typos or have other questions, please email kgrinde@macalester.edu.
 

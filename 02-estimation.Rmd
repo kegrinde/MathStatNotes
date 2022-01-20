@@ -10,35 +10,12 @@ In *Mathematical Statistics*, we will similarly write down a probability model b
 
 > Suppose we flipped a coin two times and observed one tail and then one head. Would you be more willing to believe that the probability of getting a head ($p$) is 0.7 or 0.4? If $p$ could be anywhere between 0 and 1, what's your best guess about what that value of $p$ is based on the observed data?
 
-There is more than one technique that you can use to estimate the value of an unknown parameter. You're already familiar with one technique---**least squares estimation**---from *STAT 155*. We'll review the ideas behind that approach, as well as explore two other widely used estimation techniques: **maximum likelihood estimation** and the **method of moments**.
+There is more than one technique that you can use to estimate the value of an unknown parameter. You're already familiar with one technique---**least squares estimation**---from *STAT 155*. We'll review the ideas behind that approach later in the course. To start, we'll explore two other widely used estimation techniques: **maximum likelihood estimation** and the **method of moments**.
 
 ## Learning Goals {-}
 
 - Understand the distinction between common parameter estimation methods (e.g., least squares, maximum likelihood, method of moments) 
 - Be able to implement common parameter estimation methods in a variety of settings and models
-
-## Least Squares Estimation
-
-### (Optional) Textbook Reading Guide {-}
-
-**Read:** Sections 11.1 and 11.2, through the definition of residuals (pages 520--523), and Section 3.4 in the [Stat 155 Notes](https://bcheggeseth.github.io/Stat155Notes/least-squares.html)
-
-**Definitions:**
-
-- method of least squares
-- residual
-- predicted/fitted value
-
-**Questions:**
-
-- What is the intuition behind least squares estimation?
-- What are the typical steps to find a least squares estimate? 
-- How can we use least squares estimation to estimate the slope and intercept of a simple linear regression model? (work through Theorem 11.2.1 in detail and fill in any steps that the textbook left out)
-
-### In-Class Notes and Activities {-}
-
-See *Day 1 Slides* and *Activity 1* on [Moodle](https://moodle.macalester.edu/course/view.php?id=4532).
-
 
 ## Maximum Likelihood Estimation
 
@@ -64,16 +41,11 @@ See *Day 1 Slides* and *Activity 1* on [Moodle](https://moodle.macalester.edu/co
 - Are there ever situations when the typical steps to finding a MLE don't work? If so, what can we do instead to find the MLE? (see Ex 5.2.3, 5.2.4)
 - How do the steps to finding a MLE change when we have more than one unknown parameter? (see Ex 5.2.5)
 
-### Videos {-}
+### Corresponding Videos {-}
 
-- MLE Intro (Day 2)
-- MLE Example (Day 2)
-- MLE Numerical Optimization (Day 3)
-
-### In-Class Notes and Activities {-}
-
-- MLE "by hand": see *Day 2 Slides* and *Activity 2* on [Moodle](https://moodle.macalester.edu/course/view.php?id=4532).
-- MLE by numerical techniques: see *Day 3 Slides* and *Activity 3* on [Moodle](https://moodle.macalester.edu/course/view.php?id=4532).
+- MLE Intro 
+- MLE Example
+- MLE Numerical Optimization 
 
 
 ## The Method of Moments
@@ -98,11 +70,7 @@ See *Day 1 Slides* and *Activity 1* on [Moodle](https://moodle.macalester.edu/co
 - Do the MOM and MLE approaches always yield the same estimate? (look through the examples in Section 5.2 and try using the other approach --- do you always get the same answer?) 
 
 
-### Videos {-}
+### Corresponding Videos {-}
 
 - MOM Intro
 - MOM Example
-
-### In-Class Notes and Activities {-}
-
-See *Day 4 Slides* and *Activity 4* on [Moodle](https://moodle.macalester.edu/course/view.php?id=4532).

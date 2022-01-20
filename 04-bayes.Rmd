@@ -42,18 +42,11 @@ The Bayesian philosophy represents a total shift from the Frequentist philosophy
 - What are the typical steps to deriving a posterior distribution?
 - How is the posterior distribution impacted by the observed data and our choice of prior? What sorts of considerations should we keep in mind in choosing a prior?
 
-### Videos {-}
+### Corresponding Videos {-}
 
 - Bayesian vs Frequentist Philosophy
 - Prior and Posterior Distributions Intro
 - Prior and Posterior Distributions Example
-
-
-
-### In-Class Notes and Activities {-}
-
-See *Day 9 Slides* and *Activity 9* on [Moodle](https://moodle.macalester.edu/course/view.php?id=4532).
-
 
 
 
@@ -82,16 +75,9 @@ See *Day 9 Slides* and *Activity 9* on [Moodle](https://moodle.macalester.edu/co
 - What criteria do we consider in choosing an "optimal" estimator under the Bayesian paradigm? How do Bayes estimators stand up against Frequentist optimality criteria (e.g., bias, asymptotic bias, consistency)?
 
 
-### Videos {-}
+### Corresponding Videos {-}
 
 - Bayesian Estimation Intro
 - Bayesian Estimation Proofs
 - Properties of Bayes Estimators
-
-
-
-### In-Class Notes and Activities {-}
-
-See *Day 10 Slides* and *Activity 10* on [Moodle](https://moodle.macalester.edu/course/view.php?id=4532).
-
 

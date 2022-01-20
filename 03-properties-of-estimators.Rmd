@@ -31,16 +31,11 @@ As we've seen, there is more than one way to estimate an unknown parameter. Some
 - If an estimator is unbiased, is it also asymptotically unbiased? If an estimator is asymptotically unbiased, is it necessarily unbiased?
 - If we are comparing two estimators, how can we check which estimator is more efficient? (see Ex 5.4.5 and 5.4.6)
 
-### Videos {-}
+### Corresponding Videos {-}
 
 - Bias and Variance Intro
 - Bias Examples
 - Variance Examples
-
-### In-Class Notes and Activities {-}
-
-See *Day 5 Slides* and *Activity 5* on [Moodle](https://moodle.macalester.edu/course/view.php?id=4532).
-
 
 
 ## Cramer-Rao Lower Bound
@@ -66,14 +61,10 @@ See *Day 5 Slides* and *Activity 5* on [Moodle](https://moodle.macalester.edu/co
 - What assumptions do we need to make in order for the Cramer-Rao Inequality to hold? Can you think of any examples of probability distributions that do not meet these assumptions? (see Ex 5.5.2)
 
 
-### Videos {-}
+### Corresponding Videos {-}
 
 - CRLB Intro
 - CRLB Example
-
-### In-Class Notes and Activities {-}
-
-See *Day 6 Slides* and *Activity 6* on [Moodle](https://moodle.macalester.edu/course/view.php?id=4532).
 
 
 
@@ -98,12 +89,8 @@ See *Day 6 Slides* and *Activity 6* on [Moodle](https://moodle.macalester.edu/co
 - How can we use Chebyshev's inequality to show that an estimator is consistent? (see Ex 5.7.2)
 - Which of the estimation techniques that we've seen in this class yields consistent estimators? (see Comment after Ex 5.7.2) 
 
-### Videos {-}
+### Corresponding Videos {-}
 
 - Consistency Intro
 - Consistency Examples
-
-### In-Class Notes and Activities {-}
-
-See *Day 7 Slides* and *Activity 7* on [Moodle](https://moodle.macalester.edu/course/view.php?id=4532).
 

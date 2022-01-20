@@ -1,6 +1,5 @@
 probability-review
 estimation
-least-squares-estimation
 maximum-likelihood-estimation
 the-method-of-moments
 properties-of-estimators
@@ -15,3 +14,4 @@ hypothesis-testing
 hypothesis-testing-framework
 likelihood-ratio-tests
 errors-and-power
+linear-models

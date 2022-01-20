@@ -36,14 +36,10 @@
 - How are test statistics and p-values related?
 - How can we conduct a hypothesis test for the Bernoulli/Binomial parameter $p$ if we have a small sample size?
 
-### Videos {-}
+### Corresponding Videos {-}
 
 - HT Intro
 - HT Example
-
-### In-Class Activities and Notes {-}
-
-See *Day 13 Slides* and *Activity 13* on [Moodle](https://moodle.macalester.edu/course/view.php?id=4532).
 
 
 ## Likelihood Ratio Tests
@@ -63,14 +59,12 @@ See *Day 13 Slides* and *Activity 13* on [Moodle](https://moodle.macalester.edu/
 - Why will the generalized likelihood ratio $\lambda$ be between 0 and 1? 
 - How do we typically find the critical value/region $\lambda^*$ for a generalized likelihood ratio test?
 
-### Videos {-}
+### Corresponding Videos {-}
 
 - LRT Intro
 - LRT Example
 
-### In-Class Activities and Notes {-}
 
-See *Day 14 Slides* and *Activity 14* on [Moodle](https://moodle.macalester.edu/course/view.php?id=4532).
 
 ## Errors and Power
 
@@ -91,11 +85,8 @@ See *Day 14 Slides* and *Activity 14* on [Moodle](https://moodle.macalester.edu/
 - How is type II error related to the power of a hypothesis test?
 - What factors influence the power of a test? In practice, which of these factors can we control?
 
-### Videos {-}
+### Corresponding Videos {-}
 
 - Errors and Power Intro
 - Errors and Power Example
 
-### In-Class Activities and Notes {-}
-
-See *Day 15 Slides* and *Activity 15* on [Moodle](https://moodle.macalester.edu/course/view.php?id=4532).

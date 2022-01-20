@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>1 Probability Review | Mathematical Statistics Reading Guides</title>
-  <meta name="description" content="1 Probability Review | Mathematical Statistics Reading Guides" />
+  <title>7 Hypothesis Testing | Mathematical Statistics Reading Guides</title>
+  <meta name="description" content="7 Hypothesis Testing | Mathematical Statistics Reading Guides" />
   <meta name="generator" content="bookdown 0.24.3 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="1 Probability Review | Mathematical Statistics Reading Guides" />
+  <meta property="og:title" content="7 Hypothesis Testing | Mathematical Statistics Reading Guides" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="1 Probability Review | Mathematical Statistics Reading Guides" />
+  <meta name="twitter:title" content="7 Hypothesis Testing | Mathematical Statistics Reading Guides" />
   
   
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="index.html"/>
-<link rel="next" href="estimation.html"/>
+<link rel="prev" href="hypothesis-testing.html"/>
+
 <script src="libs/header-attrs-2.10/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
@@ -149,11 +149,11 @@
 <li class="chapter" data-level="" data-path="hypothesis-testing.html"><a href="hypothesis-testing.html#corresponding-videos-10"><i class="fa fa-check"></i>Corresponding Videos</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="7" data-path="linear-models.html"><a href="linear-models.html"><i class="fa fa-check"></i><b>7</b> Linear Models</a>
+<li class="chapter" data-level="7" data-path="hypothesis-testing-1.html"><a href="hypothesis-testing-1.html"><i class="fa fa-check"></i><b>7</b> Hypothesis Testing</a>
 <ul>
-<li class="chapter" data-level="" data-path="linear-models.html"><a href="linear-models.html#learning-goals-6"><i class="fa fa-check"></i>Learning Goals</a></li>
-<li class="chapter" data-level="" data-path="linear-models.html"><a href="linear-models.html#textbook-reading-guide-11"><i class="fa fa-check"></i>Textbook Reading Guide</a></li>
-<li class="chapter" data-level="" data-path="linear-models.html"><a href="linear-models.html#corresponding-videos-11"><i class="fa fa-check"></i>Corresponding Videos</a></li>
+<li class="chapter" data-level="" data-path="hypothesis-testing-1.html"><a href="hypothesis-testing-1.html#learning-goals-6"><i class="fa fa-check"></i>Learning Goals</a></li>
+<li class="chapter" data-level="" data-path="hypothesis-testing-1.html"><a href="hypothesis-testing-1.html#textbook-reading-guide-11"><i class="fa fa-check"></i>Textbook Reading Guide</a></li>
+<li class="chapter" data-level="" data-path="hypothesis-testing-1.html"><a href="hypothesis-testing-1.html#corresponding-videos-11"><i class="fa fa-check"></i>Corresponding Videos</a></li>
 </ul></li>
 </ul>
 
@@ -172,75 +172,30 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="probability-review" class="section level1" number="1">
-<h1><span class="header-section-number">1</span> Probability Review</h1>
-<p>This course builds on topics that you covered in <em>MATH/STAT 354: Probability</em>. Some of you might have taken <em>Probability</em> last semester, and for others it might have been awhile. I certainly don’t expect you to remember everything you learned in that class, but there are some concepts from <em>Probability</em> that we will use fairly often in this class (see the list below): if you’re rusty on any of these, I recommend spending some time reviewing.</p>
-<div id="learning-goals" class="section level2 unnumbered">
+<div id="hypothesis-testing-1" class="section level1" number="7">
+<h1><span class="header-section-number">7</span> Hypothesis Testing</h1>
+<p>This section is under construction. Check back for future updates!</p>
+<div id="learning-goals-6" class="section level2 unnumbered">
 <h2>Learning Goals</h2>
-<ul>
-<li>Distinguish between important probability models (e.g., Normal, Binomial)</li>
-<li>Derive the expected value and variance of a single random variable or a sum of random variables</li>
-<li>Find the distribution of order statistics (e.g., minimum, maximum)</li>
-<li>Define the moment generating function and use it to find moments or identify pdfs</li>
-</ul>
 </div>
-<div id="optional-textbook-reading-guide" class="section level2 unnumbered">
-<h2>(Optional) Textbook Reading Guide</h2>
-<p><strong>Read:</strong> Chapters 2–4 (pages 15–277)</p>
+<div id="textbook-reading-guide-11" class="section level2 unnumbered">
+<h2>Textbook Reading Guide</h2>
+<p><strong>Read:</strong></p>
 <p><strong>Definitions:</strong></p>
-<ul>
-<li>probability density function (discrete, continuous)</li>
-<li>cumulative distribution function (discrete, continuous)</li>
-<li>joint probability density function</li>
-<li>conditional probability density function</li>
-<li>independence</li>
-<li>random variable</li>
-<li>expected value</li>
-<li>variance</li>
-<li><span class="math inline">\(r^{th}\)</span> moment</li>
-<li>covariance</li>
-<li>random sample</li>
-<li>order statistic</li>
-<li>moment generating function</li>
-<li>Binomial distribution</li>
-<li>Poisson distribution</li>
-<li>Geometric distribution</li>
-<li>Negative Binomial distribution</li>
-<li>Normal/Gaussian distribution</li>
-<li>Gamma distribution</li>
-<li>Exponential distribution</li>
-<li>Uniform distribution</li>
-</ul>
-<p><strong>Theorems:</strong></p>
-<ul>
-<li>Law of Total Probability – Theorem 2.4.1</li>
-<li>Bayes’ Theorem – Theorem 2.4.2</li>
-<li>Relationship between pdf and cdf – Theorem 3.4.1 and Theorem 3.7.3</li>
-<li>Expected value and variance of linear transformations of random variables – Corollary 3.5.1, Theorem 3.6.2, Theorem 3.9.2, Theorem 3.9.5</li>
-<li>Relationship between mean and variance – Theorem 3.6.1</li>
-<li>Finding a marginal pdf from a joint pdf – Theorem 3.7.1 and Theorem 3.7.2</li>
-<li>Independence of random variables and joint pdfs – Theorem 3.7.4</li>
-<li>Expected value of a product of independent random variables – Theorem 3.9.3</li>
-<li>Covariance of independent random variables – Theorem 3.9.4</li>
-<li>Finding the pdf and cdf of an order statistic – Theorem 3.10.1</li>
-<li>Using MGFs to find moments – Theorem 3.12.1</li>
-<li>Using MGFs to identify pdfs – Theorem 3.12.2 and Theorem 3.12.3</li>
-<li>Central Limit Theorem – Theorem 4.3.2</li>
-</ul>
-<p><em>Note: page and example numbers correspond to the 6th Edition of Larsen &amp; Marx and may not correspond directly to earlier editions of the textbook.</em></p>
+<p><strong>Questions:</strong></p>
+</div>
+<div id="corresponding-videos-11" class="section level2 unnumbered">
+<h2>Corresponding Videos</h2>
 
 </div>
 </div>
-
-
-
             </section>
 
           </div>
         </div>
       </div>
-<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="estimation.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="hypothesis-testing.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -294,20 +249,6 @@ gitbook.start({
 });
 </script>
 
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    var src = "true";
-    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
-    if (location.protocol !== "file:")
-      if (/^https?:/.test(src))
-        src = src.replace(/^https?:/, '');
-    script.src = src;
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script>
 </body>
 
 </html>
